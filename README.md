@@ -31,7 +31,7 @@ pip install cnames-0.1-py2.py3-none-any.whl
 You can also install via URL
 
 ```
-pip install http://www.github.com/ebenp/blah/blah/cnames-0.1-py2.py3-none-any.whl
+pip install https://github.com/ebenp/cnames/blob/master/dist/cnames-0.1-py2.py3-none-any.whl
 ```
 
 ## Running tests
