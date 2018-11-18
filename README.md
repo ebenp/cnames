@@ -44,7 +44,7 @@ After import assign cnames to the DataFrame class.
 
 ```
 import pandas as pd
-import cnames
+from cnames import cnames
 
 # monkey-patch the DataFrame class
 pd.DataFrame.cnames = cnames
