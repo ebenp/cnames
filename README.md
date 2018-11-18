@@ -62,9 +62,9 @@ df.cnames().<tab completion>
 ```
 
 In some cases, Jupyter Notebook and default IPython, [IPCompleter.greedy](https://ipython.readthedocs.io/en/stable/interactive/magics.html#magic-config) needs to be set for cnames to correctly populate.
-'''
+```
 %config IPCompleter.greedy = True
-'''
+```
 However, be warned that enabling this option can be unsafe, because the code is actually evaluated upon hitting TAB. This is why the feature is disabled by default. Also, enabling this seems to prevent filepath [completion](https://github.com/ipython/ipython/issues/5646
 ) inside of quotes.
 
