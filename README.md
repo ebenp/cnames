@@ -2,7 +2,7 @@
 
 cnames generates a namedtuple for pandas dataframe columns.
 When added to the pandas DataFrame class through monkey patching
-column names can obtained through tab completion in interactive mode.
+column names can be obtained through tab completion in interactive mode.
 
 ## Getting Started
 
